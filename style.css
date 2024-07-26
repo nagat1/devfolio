@@ -1,0 +1,358 @@
+/* globalllllllllll */
+
+.nav-link,
+
+.navbar-brand,
+.words,
+.testmonial-word p,
+.pro span,
+.pro p,
+.bout p,
+.pho h4,
+.pho p,
+.card h5,
+.card p,
+.web h2,
+.services h2,
+.services p ,.services-word h1,.services-word p,.portofolio-words h,.portofolio-words p,.num h5,.contact p,.lorem{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+}
+.nav-link,
+.navbar-brand,
+.words p {
+  font-weight: 600;
+}.services h2,.contact p {
+ 
+  line-height: 38px;
+}.contact p,.services-word h1,.portofolio-words h2{
+ 
+  Color:
+  rgb(30, 30, 30);
+   
+ 
+   
+  }
+/* navvvvvvvvvvvvvvvvv */
+.nav-link,
+.navbar-brand {
+  color: #fffdfd;
+
+  letter-spacing: 0.4px;
+
+  line-height: 34px;
+}
+.navbar {
+  z-index: 9999;
+
+  background-color: rgba(8, 8, 8,1);
+ 
+}
+.navbar-brand {
+  font-size: 28px;
+}
+.nav-link,
+.testmonial-word,
+.pro span,
+.services p ,.services-word p {
+  font-size: 16px;
+}
+.web h2,
+.services h2,.contact p {
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+.dropdown-toggle:hover {
+  color: rgb(58, 205, 224);
+}
+.dropdown-item:hover {
+  color: rgb(58, 205, 224);
+}
+
+.nav-item::after {
+  content: "_________";
+
+  position: relative;
+
+  color: #fffdfd;
+  top: -25px;
+  left: 15px;
+  opacity: 0;
+}
+.one::after {
+  content: "_________";
+
+  position: relative;
+
+  color: #fffdfd;
+  top: -25px;
+  left: 15px;
+  opacity: 1;
+}
+.nav-item:hover::after {
+  opacity: 1;
+  transition: 1.2s 0.1s ease-in-out;
+}
+.words {
+  top: 35%;
+  left: 30%;
+}
+/* first section */
+.words p {
+  font-size: 72px;
+}
+.words h4 {
+  transform: translateX(40%);
+}
+.photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/hero-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background: position center center;
+}
+/* second */
+.testmonial-word p,
+.card p,
+.services p,.services-word p  ,.num h5{
+  font-weight: 400;
+
+  letter-spacing: 0.4px;
+}
+.testmonial-word span {
+  font-size: 18px;
+}
+.testmonial-word span,
+.pro span {
+  font-weight: 400;
+}
+.testmonial-word span,
+.testmonial-word p,
+.pro span,
+.about p,
+.card p ,.services-word p,.portofolio-words p,.lorem{
+  color: rgb(78, 78, 78);
+}
+.progress {
+  --bs-progress-border-radius: none;
+}
+.about p ,.lorem{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+.about h2::after {
+  content: "";
+  position: absolute;
+  width: 19%;
+  height: 3px;
+  background-color: #0078ff;
+  bottom: 1.5px;
+  left: 9%;
+}
+.about {
+  position: relative;
+}
+/* third section  servicesssssss */
+.services h2 {
+  color: rgb(33, 37, 41);
+  font-size: 22px;
+ 
+}
+.services p {
+  line-height: 24px;
+}
+.part{
+    width: 30%;
+    background-color: #fffdfd;
+}.ico{
+  width: 85px;
+  height: 85px;
+  box-shadow: 0 0 0 10px #0F80FF;
+  transition: all .4s .1s ease-in-out;
+  transform: translateX(150%);
+}.ico:hover{
+  box-shadow: 0 0 0 10px #CDE1F8;
+  background-color: #0F80FF;
+}
+
+.services-word h1,.portofolio-words h2{
+  position: relative;
+font-weight: 700;
+
+
+font-size: 48px;
+line-height: 58px;
+
+}.services-word p,.portofolio-words p{
+  position: relative;
+
+
+
+
+line-height: 24px;
+}.services-word p::after{
+  content: "";
+  position: absolute;
+  width: 4.2%;
+  height: 5px;
+  background-color: #0078ff;
+  bottom: -20px;
+  left: 50%;
+
+}
+
+/* carosoul */
+.ph ,.contact{
+  background-image: linear-gradient(
+      rgba(45, 119, 199, 0.7),
+      rgba(45, 119, 199, 0.7)
+    ),
+    url(images/overlay-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background: position center center;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 13px;
+  height: 13px;
+}
+/* blogg */
+.card-footer img {
+  width: 15%;
+}
+.web h2 {
+  font-size: 11px;
+  padding-top: 5px;
+}
+.web {
+  transform: translate(140%, -560%);
+  background-color: #0078ff;
+  padding-top: 5px;
+  border-radius: 5%;
+}.blog-words p::after{
+  content: "";
+  position: absolute;
+  width: 4.2%;
+  height: 5px;
+  background-color: #0078ff;
+  bottom: -20px;
+  left: 50%;
+
+}.blog-words p{position: relative;}
+/* nummmmm */
+.num{
+  background-image: linear-gradient(
+    rgba(9, 92, 187, 0.575),#3B90EE
+  ),
+  url(images/counters-bg.jpg);
+background-size: cover;
+height: 100vh;
+background: position center center;
+background-attachment: fixed;
+}.ic{
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 0 10px #CDE1F8;
+ 
+  transform: translateX(150%);
+}
+/* portofolio */
+.portofolio-words p::after{
+  content: "";
+  position: absolute;
+  width: 4.2%;
+  height: 5px;
+  background-color: #0078ff;
+  bottom: -20px;
+  left: 50%;
+
+}.portofolio-words h2{
+  font-size: 45px;
+
+}.portofolio span{
+  color: #0F80FF;
+}body{
+  overflow-x: hidden;
+}
+/* رهييييييييييييييييييييييبه */
+.portofolio img:hover{
+ 
+  transform: scale(1.2,1.2);
+
+}.portofolio i{
+
+transform: translateX(90px);
+}.portofolio img{
+  transition:        transform 400ms ease-in-out;
+
+}
+/* حلوه دي حطيت الصور جوا ديف واديت الديف ده overflow hidden عشان مهما الصوره تكبر ماتخرجش براه */
+.portofolio .card .h{
+  overflow: hidden;
+}
+/* contacttttt */
+.contact{
+  
+    
+  background-attachment: fixed;
+}.contact p{
+ position: relative;
+  font-size: 32px;
+ 
+}.contact p::after {
+  content: "";
+  position: absolute;
+  width: 19%;
+  height: 3px;
+  background-color: #0078ff;
+  bottom: -10px;
+  left: 0%;
+}
+
+.contact-icon{
+  width: 100px;
+  height: 100px;
+
+  transform: scale(.33,.33);
+  box-shadow: 0 0 0 10px #0F80FF;
+  transition: all .4s .1s ease-in-out;
+ 
+}.contact-icon:hover{
+  box-shadow: 0 0 0 10px #CDE1F8;
+  background-color: #0F80FF;
+}
+/* footer */
+.footer{
+  background-color:#0062D3;
+}
+
+
+        .move {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: type 4s ;
+            border-right: 2px solid ;
+            font-weight: bold;
+        }
+
+        @keyframes type {
+            from { width: 0; }
+            to { width: 18em; } /* Adjust width as needed */
+        }
+
+       
+
+

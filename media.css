@@ -1,0 +1,73 @@
+/* as8ar mn 640 */
+@media (max-width: 640px) { 
+    /* first sec */
+    .words p{
+   font-size: 44px; 
+    }
+
+.words h4{
+    font-size: 23px;
+
+    transform: translateX(30%);
+}.words h4{
+    transform: translateX(23%);
+}.words p{
+    transform: translateX(-10%);
+}
+.photo{
+  
+    background-position:center  center;
+  
+
+}
+/* second sec */
+.about h2{
+    font-size: 32px;
+}
+/* services */
+.part{
+   
+    width: 100%;
+}.services-word p::after{
+   
+    width: 10%;
+   
+   
+  
+  }.services-word{
+    margin-right:15%;
+  }
+/* num */
+.num{
+
+  height: 120vh;}
+}
+/* sm */
+@media (min-width: 640px) { 
+
+}
+
+
+/* md */
+@media  (max-width: 1024px) 
+{
+    /* services */
+    .part{
+        width: 80%;
+    }
+}
+/* lg */
+@media  (min-width: 1024px) 
+{
+
+}
+/* xl */
+@media  (min-width: 1280px) 
+{
+
+}
+/* lg */
+@media  (min-width: 1536px) 
+{
+
+}
